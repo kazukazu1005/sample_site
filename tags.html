@@ -1,10 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
   <head>
     <title>HTMLタグ一覧</title>
     <meta charset="utf-8" />
   </head>
   <body>
+
+    <div>
+        <a href="index.html">homeページ</a>
+        <a href="tags.html">HTMLタグ一覧</a>
+        <a href="moby_dick.html">読書案内『Moby Dick』</a>
+    </div>
+
     <h1>重要なHTMLタグ一覧</h1>
     <a href="https://www.flickr.com/photos/jdhancock/3814523970">
       <img
@@ -65,6 +72,33 @@
         <td>表のデータ（table data）</td>
         <td>この中に表のセルデータを置く</td>
       </tr>
+      <tr>
+        <td><code>div</code></td>
+        <td>区切り</td>
+        <td>他の要素と区切りをコンピュータに伝える</td>
+    </tr>
+    <tr>
+        <td><code>header</code></td>
+        <td>先頭</td>
+        <td>webサイトの先頭の要素であることを示す</td>
+    </tr>
+    <tr>
+        <td><code>ul</code></td>
+        <td>アンオーダードリスト</td>
+        <td>順序のないリスト</td>
+    </tr>
+    <tr>
+        <td><code>ol</code></td>
+        <td>オーダードリスト</td>
+        <td>順序のあるリスト</td>
+    </tr>
+    <tr>
+        <td><code>li</code></td>
+        <td>リスト</td>
+        <td>リストを作成する</td>
+    </tr>
+    
+
     </table>
 
     <h2>インライン要素（inline element）</h2>
@@ -83,6 +117,55 @@
         <td>テキストを軽く強調する</td>
         <td><code>技術の成熟（&lt;em&gt;technical sophistication&lt;/em&gt;）</code></td>
         <td>技術の成熟（<em>technical sophistication</em>）</td>
+      </tr>
+      <tr>
+        <td><code>strong</code></td>
+        <td>強調（strong）</td>
+        <td>テキストを強調する</td>
+        <td>
+          <code>&lt;strong&gt;少なくとも10億人&lt;/strong&gt;</code>
+        </td>
+        <td><strong>少なくとも10億人</strong></td>
+      </tr>
+      <tr>
+        <td><code>a</code></td>
+        <td>アンカー（anchor）</td>
+        <td>ハイパーリンクにする</td>
+        <td>
+          <code>
+            &lt;a href="https://learnenough.com/"&gt;Learn Enough&lt;/a&gt;
+          </code>
+        </td>
+        <td><a href="https://learnenough.com/">Learn Enough</a></td>
+      </tr>
+      <tr>
+        <td><code>img</code></td>
+        <td>画像（image）</td>
+        <td>画像を配置する</td>
+        <td>
+          <code>
+            &lt;img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"&gt;
+          </code>
+        </td>
+        <td><img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"></td>
+      </tr>
+      <tr>
+        <td><code>code</code></td>
+        <td>コード(code)</td>
+        <td>ソースコードを表す</td>
+        <td>
+            <code>&lt;code&gt;hello world!&lt;/code&gt;</code>
+        </td>
+        <td><code>hello world!</code></td>
+      </tr>
+      <tr>
+        <td><code>span</code></td>
+        <td>範囲(span)</td>
+        <td>他の要素と区切りをコンピュータに伝える</td>
+        <td>
+            <code>&lt;span&gt;this is mytime&lt;/span&gt;</code>
+        </td>
+        <td><span>this is mytime</span></td>
       </tr>
     </table>
   </body>
