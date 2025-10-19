@@ -5,3 +5,15 @@
 .nav-menu{
     text-align: right;
 }
+.img-link{
+    text-decoration: none;
+}
+.a-none{
+    text-decoration: none; color:#0000E5
+}
+.content{
+    width: 560px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #fafafa;
+}
